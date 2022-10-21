@@ -21,3 +21,23 @@ student.courseLoad[0]
 ```
 
 13. 
+A. `32`, the int is converted to a string, then appended.
+B. `1`, the string is converted to an int because of the `-`, then subtracted.
+C. `3`, the null is converted to an int (0) and then added.
+D. `3null`, the null is converted to a string, then appended.
+E. `4`, the true is converted to an int (1) and then added
+F. `0`, both null and false are converted to 0 and added.
+G. `3undefined`, undefined is converted to a string and appended.
+H. `NaN`, undefined can't be subtracted from 3, so the result is NaN (not a number).
+
+14.
+A. `true`, Numeric values are compared
+B. `false`, ASCII values are compared (both strings)
+C. `true`, Numeric values compared
+D. `false`, Different types, so not strictly equal.
+E. `false`, true evaluates to 1, so not equal.
+F. `true`, `Boolean(2)` evaluates to `true`, which is strictly equal to `true`
+
+15. `==` will try to cast the operands to get equality, but for `===` if the operands are different types, it will be false.
+
+
