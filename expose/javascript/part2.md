@@ -40,4 +40,7 @@ F. `true`, `Boolean(2)` evaluates to `true`, which is strictly equal to `true`
 
 15. `==` will try to cast the operands to get equality, but for `===` if the operands are different types, it will be false.
 
+17. The function will return `[2,4,6]`. This is because the code iterates through every element of the input, calls the callback (in this case multiplies the number by 2).
+
+19. This code prints `1 4 3 2`. The `setTimeout` call delays the execution of the logs which changes the order of the prints. Interestingly, a delay of 0 ms for `3` still causes it to print after `4`.
 
